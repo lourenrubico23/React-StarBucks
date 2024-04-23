@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className='footer-link' key={key}>
                         <h3 className='mb-12 text-lg'>{item.title}</h3>
                         <ul className='opacity-70 space-y-6'>
-                            {item.links.map((link, key) => <li key={key}><Link to={`${link}`}>{link.label}</Link></li>)}
+                            {item.links.map((link, key) => <li key={key} className='hover:font-semibold'><Link to={`${link}`}>{link.label}</Link></li>)}
                         </ul>
                     </div>
                 )

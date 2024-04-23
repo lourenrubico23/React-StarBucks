@@ -1,1 +1,9 @@
 export const baseImgUrl = "http://localhost/react-intro/public/img/";
+export const coffeeImgUrl = "http://localhost/react-intro/public/img/coffee/";
+export const drinksImgUrl = "http://localhost/react-intro/public/img/drinks/";
+export const foodsImgUrl = "http://localhost/react-intro/public/img/foods/";
+export const merchandiseImgUrl = "http://localhost/react-intro/public/img/merchandise/";
+export const subDrinksImgUrl = "http://localhost/react-intro/public/img/subDrinks/";
+export const subFoodsImgUrl = "http://localhost/react-intro/public/img/subFoods/";
+export const subCoffeeImgUrl = "http://localhost/react-intro/public/img/subCoffee/";
+export const subMerchImgUrl = "http://localhost/react-intro/public/img/subMerch/";

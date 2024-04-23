@@ -1,5 +1,5 @@
 @tailwind base;
-@tailwind component;
+@tailwind components;
 @tailwind utilities;
 
 
@@ -16,14 +16,14 @@
 }
 
 
-@layer component{
+@layer components{
     .container{
-        @apply mx-auto px-4 max-w-[1400px] w-full
+        @apply mx-auto px-4 max-w-[1400px] w-full 
     }
     .btn{
-        @apply border min-w-[120px] p-2 text-center rounded-2xl
+        @apply border bg-transparent min-w-[120px] p-2 text-center rounded-3xl font-semibold
     }
     .btn-outline{
-        @apply border border-accent
+        @apply border border-accent w-fit mx-auto
     }
 }
