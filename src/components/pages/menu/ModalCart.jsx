@@ -10,9 +10,12 @@ const ModalCart = ({setCartShow, cartItem, setCartItem}) => {
     const handleClose = () => setCartShow(false);
     const handleEmptyCart = () => setCartItem([]);
 
-    const handleRemoveItem = (item) => {
-        cartItem.filter(cart => cart.title !== item.title)
-    } 
+    const handleRemoveItem = (itemToRemove) => {
+        const updatedCartItems = cartItem.filter(
+          (item) => item.title !== itemToRemove.title
+        );
+        setCartItem(updatedCartItems);
+      };
 
     
     const getSubTotal = cartItem.reduce(
