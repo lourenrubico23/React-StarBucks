@@ -9,6 +9,7 @@ import ModalViewItem from './ModalViewItem'
 import ModalCart from './ModalCart'
 import Toast from '../../partials/Toast'
 
+
 /* State */
 const Menu = () => {
     const [menuTab, setMenuTab] = React.useState('drinks');
@@ -22,7 +23,6 @@ const Menu = () => {
         setMenuTab(menu)
     }
 
-    
 
   return (
     <div>

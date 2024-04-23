@@ -25,7 +25,7 @@ const ModalViewItem = ({setModalShow, subItem, setCartItem, cartItem, setSuccess
                 {subItem.subItem.map((item, key) => (
                     <button onClick={() => handleAddToCart(item)} key={key}>
                         <div className='item__card flex flex-col items-center' key={key}>
-                            <img src={`${subDrinksImgUrl}/${item.img}`}  alt="" className='size-[110px] rounded-full'/>
+                            <img src={`${item.url}/${item.img}`}  alt="" className='size-[110px] rounded-full'/>
                             <h4 className='font-bold'>{item.title}</h4>
                             <small>{item.category}</small>
                         </div>

@@ -7,55 +7,64 @@ export const drinks = [
                 img: "Americano.jpg",
                 title: "Cafe Americanos",
                 category: "Americanos",
-                price: "120.00"
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "Veranda.jpg",
                 title: "Blonde Roast",
                 category: "Brewed Coffee",
-                price: "120.00"
+                price: "130.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "CaffeMisto.jpg",
                 title: "Cappuccino",
                 category: "Cappuccinos",
-                price: "120.00"
+                price: "140.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "Espresso.jpg",
                 title: "Espresso",
                 category: "Espresso Shots",
-                price: "120.00"
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "FlatWhite.jpg",
                 title: "Flat",
                 category: "Flat Whites",
-                price: "120.00"
+                price: "150.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "Latte.jpg",
                 title: "Oatmilk Lattes",
                 category: "Lattes",
-                price: "120.00"
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "Caramel.jpg",
                 title: "Caramel",
                 category: "Macchiatos",
-                price: "120.00"
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "Mocha.jpg",
                 title: "Caffee Mocha",
                 category: "Mochas",
-                price: "120.00"
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "Traveler.jpg",
                 title: "Veranda Blend",
                 category: "Coffee Travelers",
-                price: "120.00"
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
         ]
     },
@@ -66,47 +75,65 @@ export const drinks = [
             {
                 img: "IcedPistachio.jpg",
                 title: "Cafe Americanos",
-                category: "Cold Brews"
+                category: "Cold Brews",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedNitro.jpg",
                 title: "Blonde Roast",
-                category: "Nitro Cold Brews"
+                category: "Nitro Cold Brews",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedAmericano.jpg",
                 title: "Cappuccino",
-                category: "Iced Americano"
+                category: "Iced Americano",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedCoffee.jpg",
                 title: "Veranda Blend",
-                category: "Iced Coffees"
+                category: "Iced Coffees",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedHazelnut.jpg",
                 title: "Espresso",
-                category: "Iced Shaken Espresso"
+                category: "Iced Shaken Espresso",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedFlat.jpg",
                 title: "Flat",
-                category: "Iced Flat Whites"
+                category: "Iced Flat Whites",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedLavender.jpg",
                 title: "Oatmilk Lattes",
-                category: "Iced Lattes"
+                category: "Iced Lattes",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedCaramel.jpg",
                 title: "Caramel",
-                category: "Iced Macchiatos"
+                category: "Iced Macchiatos",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedWhite.jpg",
                 title: "Caffee Mocha",
-                category: "Iced Mochas"
+                category: "Iced Mochas",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             
         ]
@@ -118,22 +145,30 @@ export const drinks = [
             {
                 img: "IcedPistachio.jpg",
                 title: "Cafe Americanos",
-                category: "Cold Brews"
+                category: "Cold Brews",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedNitro.jpg",
                 title: "Blonde Roast",
-                category: "Nitro Cold Brews"
+                category: "Nitro Cold Brews",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedAmericano.jpg",
                 title: "Cappuccino",
-                category: "Iced Americano"
+                category: "Iced Americano",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
             {
                 img: "IcedCoffee.jpg",
                 title: "Veranda Blend",
-                category: "Iced Coffees"
+                category: "Iced Coffees",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subDrinks/"
             },
         ]
     },
@@ -167,12 +202,16 @@ export const foods = [
             {
                 img: "Chicken.jpg",
                 title: "Chicken, Maple Butter & Egg Sandwich ",
-                category: "Breakfast Sandwiches & Wraps"
+                category: "Breakfast Sandwiches & Wraps",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subFoods/"
             },
             {
                 img: "Potato.jpg",
                 title: "Potato, Cheddar & Chive Bakes",
-                category: "Bakes & Egg Bites"
+                category: "Bakes & Egg Bites",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subFoods/"
             },
         ]
     },
@@ -203,22 +242,30 @@ export const coffee = [
             {
                 img: "Ethiopia.jpg",
                 title: "Sun- Dried Ethiopia Kayon Mountain Farm Starbucks Reserve ",
-                category: "Starbucks Reserve®"
+                category: "Starbucks Reserve®",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subCoffee/"
             },
             {
                 img: "Green.jpg",
                 title: "Starbucks Green Apron Blend",
-                category: "Blonde Roast"
+                category: "Blonde Roast",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subCoffee/"
             },
             {
                 img: "Odyssey.jpg",
                 title: "Starbucks Odyssey Blend",
-                category: "Medium Roast"
+                category: "Medium Roast",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subCoffee/"
             },
             {
                 img: "Anniversary.jpg",
                 title: "Starbucks Anniversary Blend 2024",
-                category: "Dark Roast"
+                category: "Dark Roast",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subCoffee/"
             },
         ]
     },
@@ -234,9 +281,11 @@ export const merchandise = [
         title: "Cold Cups",
         subItem: [
             {
-                img: "Ethiopia.jpg",
+                img: "Reusable.jpg",
                 title: "Plastic Reusable Cold Cup with Lid & Straw - 24 fl oz ",
-                category: "Cold Cups"
+                category: "Cold Cups",
+                price: "120.00",
+                url: "http://localhost/react-intro/public/img/subMerch/"
             },
         ]
     },

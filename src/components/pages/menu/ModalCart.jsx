@@ -41,10 +41,10 @@ const ModalCart = ({setCartShow, cartItem, setCartItem}) => {
             </div>
             
 
-                <div className="p-4 py-10 max-h-[800px] h-full overflow-auto " >
+                <div className="p-4 py-10 max-h-[600px] h-full overflow-auto " >
                     {cartItem.map((item, key) => (
                     <div className="cartItem mb-5 flex gap-5 items-center" key={key}>
-                        <img src={`${subDrinksImgUrl}/${item.img}`} alt="" className='rounded-full size-[70px]' />
+                        <img src={`${item.url}/${item.img}`} alt="" className='rounded-full size-[70px]' />
                             <div>
                                 <h4 className='font-bold'>{item.title}</h4>
                                 <p>{item.price}</p>
