@@ -41,24 +41,24 @@ const ModalCart = ({setCartShow, cartItem, setCartItem}) => {
             </div>
             
 
-                <div className="p-4 py-10 max-h-[600px] h-full overflow-auto " >
+                <div className="p-4 py-10 max-h-[760px] h-full overflow-auto " >
                     {cartItem.map((item, key) => (
-                    <div className="cartItem mb-5 flex gap-5 items-center" key={key}>
+                    <div className="cartItem mb-5 grid grid-cols-[1fr,2fr,1fr] gap-3 items-center justify-between" key={key}>
                         <img src={`${item.url}/${item.img}`} alt="" className='rounded-full size-[70px]' />
                             <div>
                                 <h4 className='font-bold'>{item.title}</h4>
                                 <p>{item.price}</p>
                             </div>
 
-                        <button onClick={() => handleRemoveItem(item)}>Remove</button>
+                        <button onClick={() => handleRemoveItem(item)} className='bg-accent text-white p-2 rounded-full'>Remove</button>
                     </div>
                     ))}
             
 
                     {cartItem.length === 0 && (
-                        <div className='empty__cart text-center flex flex-col items-center'>
+                        <div className='empty__cart text-center flex flex-col mx-auto mt-[50%] items-center'>
                             <BsCartX className='text-[80px] opacity-50 '/>
-                            <h3 className='font-bold opacity-25'>Cart Empty</h3>
+                            <h3 className='font-bold opacity-25'>Empty Cart</h3>
                         </div> 
                     )}
             

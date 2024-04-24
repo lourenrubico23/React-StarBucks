@@ -30,9 +30,12 @@ const handleShowCart = () => setCartShow(true)
                     </li>
                 </ul>
 
-                <button className='text-4xl relative' onClick={handleShowCart}><CiShoppingCart />
-                {cartItem.length !== 0 && (<span className='size-4 rounded-full bg-red-600 text-white absolute -top-1 -left-[5px] text-[10px] grid place-content-center' >{cartItem.length}</span>)}
-                </button>
+                {cartItem !== undefined && (<button className='text-2xl relative' onClick={handleShowCart} >
+                       {cartItem.length !== 0 && (
+                       <span className='size-4 rounded-full bg-red-600 text-white absolute -top-1 -left-[5px] text-[10px] grid place-content-center'>{cartItem.length}</span>
+                        )} 
+                    <CiShoppingCart />
+                </button>)}
             </div>
         </div>
       </header>
